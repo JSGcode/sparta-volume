@@ -54,11 +54,12 @@
     </header>
     <!-- video jumbotron -->
     <div class="jumbotron jumbotron-fluid embed-responsive mb-0">
-        <video class="embed-responsive-item" autoplay loop>
+        <video class="embed-responsive-item" autoplay="autoplay" loop>
             <source src="vid\banner.mp4" type="video/mp4">
         </video>
     </div>
     <main>
+        <!-- Main Article and badges -->
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8">.
@@ -85,17 +86,162 @@
 
                     </div>
                 </div>
-                <div class="badges col-md-2">
-                    <div class="box row">
-                        img
+                <div class="badges col-md-2 justify-content-center">
+                    <div>
+                        <img src="img/retailweek.jpg" alt="..." class="thumbnail">
                     </div>
-                    <div class="box row">
-                        img
+                    <div>
+                        <img src="img/techawards.png" alt="..." class="thumbnail round">
                     </div>
                 </div>
             </div>
         </div>
+        <!-- carousel -->
+        <div class="container-fluid whitebg">
+            <div id="carouselExampleIndicators m-5" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="container carousel-border">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row offset-2">
+                                <div class="col-2 abc">
+                                    <img src="img/dixons-travel.jpg" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-2 abc">
+                                    <img src="img/harrods.jpg" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-2 abc">
+                                    <img src="img/lexus.jpg" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-2 abc">
+                                    <img src="img/panasonic.jpg" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-2 abc">
+                                    <img src="img/samsung1.jpg" class="d-block w-75" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row offset-2">
+                                <div class="col-2 abc">
+                                    <img src="img/giorgio-armani.jpg" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-2 abc">
+                                    <img src="img/reebok.jpg" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-2 abc">
+                                    <img src="img/movistar.jpg" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-2 abc">
+                                    <img src="img/sony-vaio.jpg" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-2 abc">
+                                    <img src="img/peroni.jpg" class="d-block w-75" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row offset-2">
+                                <div class="col-2 abc">
+                                    <img src="img/visa.jpg" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-2 abc">
+                                    <img src="img/warner-bros.jpg" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-2 abc">
+                                    <img src="img/movistar.jpg" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-2 abc">
+                                    <img src="img/windows-8.jpg" class="d-block w-75" alt="...">
+                                </div>
+                                <div class="col-2 abc">
+                                    <img src="img/peroni.jpg" class="d-block w-75" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!-- jumbotron for services -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h1>Services</h1>
+                        <p>Volume was specifically founded to develop and deliver excellent work that we genuinely feel
+                            proud of. We help our clients maximise the potential of their requirements through expert
+                            guidance and knowledge sharing. Our experienced colleagues delight in offering solutions
+                            that over deliver on expectations and just simply work reliably.</p>
+                    </div>
+                    <div class="col-md-7"></div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Form Jumbotron -->
+        <div class="jumbotron jumbotron-fluid jumboblack">
+            <div class="row">
+                <div class="col-md-6 offset-3 bkbox-font">
+                    <h2 class="text-center">Request a callback</h2>
+                    <p class="lead">If you are interested in our products, software development, content creation or
+                        hardware solutions please contact us with the details below. For support queries visit the <a
+                            href="">support
+                            desk.</a> </p>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail4"></label>
+                                <input type="text" class="form-control" id="name" placeholder="Name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4"></label>
+                                <input type="text" class="form-control" id="inputnumber" placeholder="Contact Number:">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress"></label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="inputAddress2"></label>
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="How Can We Help?">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- hewlett logo -->
+        <div class="jumbotron jumbotron-fluid jumbowhite">
+            <div class="col-md-4 offset-5">
+                <img src="img/hewlett.png" alt="">
+            </div>
+        </div>
     </main>
+    <footer>
+        <div class="container-fluid mt-5 jumboblue">
+            <div class="row foot">
+                <div class="col-md-6 offset-3 text-center crights">
+                    <h6>Support</h6>
+                    <h6>&copy; Volume. All Rights Reserved.</h6>
+                </div>
+            </div>
+
+        </div>
+    </footer>
 </body>
 
 </html>
