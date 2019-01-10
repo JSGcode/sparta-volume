@@ -1,0 +1,50 @@
+/*Navbar*/
+.navbar{
+    background-color: #7db6df;
+    font-weight: bold;
+}
+.navbar a{
+    color: white;
+}
+.navbar a:hover{
+    color: black;
+    transition: 0.5s;
+}
+.navbar span{
+    font-size: 20pt;
+    margin-left: 20px;
+}
+.collapse {
+    z-index: 1;
+    background: #7db6df;
+}
+/*video*/
+.jumbotron-fluid{
+    position: relative;
+    object-fit: none;
+    height:500px;
+    /* z-index: -1; */
+} 
+video {
+    object-fit: cover;
+}
+/*body*/
+.mainarticle{
+    transform: translate(100px, -120px);
+    background-color: white;
+    opacity: 0.93;
+    padding-bottom: 50px 
+}
+.mainarticle h1{
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+.badges{
+    transform: translate(200px, 0px);
+}
+.container-fluid{
+    background-color: rgb(233, 233, 233);
+}
+.box{
+    object-fit: contain
+}

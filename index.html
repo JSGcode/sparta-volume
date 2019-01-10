@@ -1,16 +1,101 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <title>Page Title</title>
+    <!-- jquery cdn minified -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- link and script for bootstap min and javavascirpt min -->
+    <link rel="stylesheet" href="css\bootstrap-4.2.1-dist\bootstrap-4.2.1-dist\css\bootstrap.min.css">
+    <script src="css\bootstrap-4.2.1-dist\bootstrap-4.2.1-dist\js\bootstrap.min.js"></script>
     <script src="main.js"></script>
+    <!--  personal main css initialized -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-    
+    <header>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark p-0 fixed-top">
+            <a class="navbar-brand p-0" href="#"><img src="img/logo.png" alt="logo"><span>Volume</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon mr-5"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ml-3">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">What We Do</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <!-- video jumbotron -->
+    <div class="jumbotron jumbotron-fluid embed-responsive mb-0">
+        <video class="embed-responsive-item" autoplay loop>
+            <source src="vid\banner.mp4" type="video/mp4">
+        </video>
+    </div>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">.
+                    <div class="mainarticle pl-5">
+                        <h1>Who We Are</h1>
+                        <h2>Re-Defining Digital Experiences London-Spain</h2>
+                        <p>We are a digital software and hardware company who develop our own bespoke software and
+                            hardware platforms allowing us to control every element of the detailed experience our
+                            clients require.</p>
+                        <p> We work with the world's largest retailers and brands designing digital experiences that
+                            deliver results for the retailer's in-shopper experience whilst ensuring a digitally
+                            focused customer journey that is compelling to the customer.</p>
+                        <div>
+                            <h2>What We Do</h2>
+                            <ul>
+                                <li>Software Development</li>
+                                <li>Content Production & Licensing</li>
+                                <li>Hardware Manufacturing</li>
+                                <li>Planning & Installation</li>
+                                <li>Logistics & Warehousing</li>
+                                <li>Customer Support</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="badges col-md-2">
+                    <div class="box row">
+                        img
+                    </div>
+                    <div class="box row">
+                        img
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
